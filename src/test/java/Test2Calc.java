@@ -20,4 +20,14 @@ public class Test2Calc {
 
         Assert.assertEquals(actResult, expRes);
     }
+
+    @Test
+    public void test2() {
+        final int first = 10;
+        final int second = 0;
+        final int expRes = 0;
+        final int actResult = underTest.multiply(first, second);
+
+        Assert.assertEquals(actResult, expRes);
+    }
 }
