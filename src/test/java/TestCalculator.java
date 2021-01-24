@@ -69,4 +69,14 @@ public class TestCalculator {
         Assert.assertThrows(IllegalArgumentException.class,
                 () -> underTest.divide(first, second));
     }
+
+    @Test
+    public void test7() {
+        final int first = 0;
+        final int second = 5;
+        final int expRes = 0;
+        final int actResult = underTest.divide(first, second);
+
+        Assert.assertEquals(actResult, expRes);
+    }
 }
