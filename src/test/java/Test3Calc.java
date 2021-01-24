@@ -12,9 +12,9 @@ public class Test3Calc {
 
     @Test
     public void test3() {
-        final int first = 5;
-        final int second = 0;
-        final int expRes = 0;
+        final int first = 7;
+        final int second = 2;
+        final int expRes = 14;
         final int actResult = underTest.multiply(first, second);
 
         Assert.assertEquals(actResult, expRes);
